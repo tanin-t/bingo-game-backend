@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/player/', views.PlayerListCreateAPIView.as_view()),
     path('api/bingo-number/generate/', views.GenerateBingoNumber.as_view()),
     path('api/bingo-number/check/', views.CheckBingoNumberAPI.as_view()),
+    path('api/reset-game/', views.ResetGameAPIView.as_view()),
 ]
